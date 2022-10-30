@@ -7,7 +7,7 @@
 alert("Show-Output");
 
 // Output show in Document.write
-//document.write("Document Output"); 
+document.write("Document Output"); 
 
 // Output show in console.log
 console.log("Console Output");
