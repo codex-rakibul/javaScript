@@ -1,5 +1,5 @@
 const car ={
-    name:"audi",
+    name:"Audi",
     model:"110",
     weight:"567kg",
     color:"white",
