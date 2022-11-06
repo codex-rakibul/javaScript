@@ -43,7 +43,7 @@ const car ={
     },
 };
 
-car.properties("101","680kg","White",3400);
+car.properties("101","680kg","White",3500);
 
 
 
