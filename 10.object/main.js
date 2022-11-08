@@ -16,7 +16,7 @@ const car ={
         this.start();
     },
 
-    properties:function(model,weight,color,price){
+    insert:function(model,weight,color,price){
         this.drive();
         this.weight = weight;  
         this.color = color;
@@ -43,7 +43,7 @@ const car ={
     },
 };
 
-car.properties("101","680kg","White",3500);
+car.insert("101","680kg","White",3500);
 
 
 
