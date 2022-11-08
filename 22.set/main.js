@@ -6,7 +6,6 @@ letters.add("c");
 
 // Display set.size
 document.getElementById("demo").innerHTML = letters.size;
-
 console.log(letters);
 
 
