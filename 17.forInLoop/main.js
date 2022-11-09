@@ -11,7 +11,7 @@ for(let x in person){
 }
 
 
-//forIn loop use in object
+//forIn loop use in array
 console.log("for array");
 const person2 =[22,33,55,332];
 for(let x in person2){
