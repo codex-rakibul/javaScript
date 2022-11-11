@@ -2,7 +2,7 @@
 // In JavaScript, objects use named indexes.
 const array = new Array(20);
 const arr = ["Audi", 101, "White"];
-const demo = document.getElementById('demo').innerHTML=arr[1];
+const demo = document.getElementById('demo');
 console.log(typeof(arr[1]));
 
 arr[3]="1200$";
@@ -30,6 +30,17 @@ function forEach(value){
     console.log(value);
 }
 arr.forEach(forEach);
+
+
+//looping array element:
+txt = "<ul>";
+for (let y = 0; y < arr.length; y++){
+    txt += "<li>" + arr[y] + "</li>";
+}
+txt += "</ul>";
+
+demo.innerHTML = txt;
+
 
 
 
