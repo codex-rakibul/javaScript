@@ -1,0 +1,12 @@
+.anchor{
+    background: darkred;
+    padding: 10px 8px;
+    text-decoration: none;
+    color: white;
+    border: solid 1px tomato;
+    border-radius: 6px;
+    margin-bottom: 20px; 
+}
+.form{
+    margin-top: 20px;
+}
